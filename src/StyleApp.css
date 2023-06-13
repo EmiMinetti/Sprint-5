@@ -1,0 +1,471 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;   
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+header {
+    background-color: hsl(217, 28%, 15%);
+    background-image: url(./assets/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    
+}
+
+/* NAV */
+
+.navBarStyle {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenidoNav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menuNav{
+    display: flex;
+    gap: 25px;
+}
+
+.namesNav {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+/* HERO */
+.heroStyle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorHero{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.imageHero {
+    width: 50%;
+}
+
+.textosHero{
+    width: 60%;
+    text-align: center;
+}
+
+#txtSecundarioHero{
+    width: 80%;
+    padding: 0px 10%;
+}
+
+.btnHero {
+    border: none;
+    border-radius: 30px;
+    padding: 18px 35px;
+    background-color: hsl(198, 60%, 50%);
+    color:  hsl(0, 0%, 100%);
+}
+/* MAIN */
+main {
+    width: 100%;
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0% 16% 0%;
+}
+
+.feacturesList {
+    background-color: hsl(218, 28%, 13%);
+    width: 80%;
+}
+
+.sectionFeacture {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 5% 0% 5% 0%;
+}
+
+.featureStyle {
+    width: 29%;
+    text-align: center;
+}
+
+
+.productiveCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.imgProductive{
+    width: 55%;
+}
+
+.txtProductiveCont {
+    width: 40%;
+    height: 60%;
+}
+
+.titleProductive {
+    font-size: 38px;
+}
+
+
+.testiCont {
+    display: flex;
+    width: 80%;
+    height: 204px;
+    justify-content: space-evenly;
+    align-items: self-end;
+    gap: 4%;
+    margin: 10% 0% 8% 0%;
+    background-image: url(./assets/bg-quotes.png);
+    background-repeat: no-repeat;
+}
+
+.testInd {
+    background-color: hsl(219, 30%, 18%);
+    width: 28%;
+    padding: 2%;
+    height: 60%;
+}
+
+.contenidoEdit{
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imgTest {
+    width: 11%;
+    height: 11%;
+    border-radius: 15px;
+}
+
+.datosTest {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    align-items: center;
+}
+
+.nameTest{
+    font-size: 65%;
+    margin: 0px 0px 5px 0px;
+}
+
+.titleTest{
+    font-size: 55%;
+    margin: 0px 0px 0px 0px;
+}
+
+/* FOOTER */
+
+.footerContenedor{
+    background-color: hsl(216, 53%, 9%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+
+.logoFyloFoot{
+    width: 200px;
+}
+
+.fyloCont{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+.dataFooter{
+    width: 80%;
+    padding: 0% 0% 7% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuFooter {
+    width: 8%;
+}
+
+.textDataFooter{
+    display: flex;
+    font-size: 18px;
+    gap: 3%;
+    margin-top: 40px;
+}
+
+.locationSect{
+    width: 35%;
+    display: flex;
+    align-items: start;
+    gap: 5%;
+}
+
+.iconFoot{
+    width: 30px;
+}
+
+.iconLorem{
+    width: 22px;
+}
+ 
+.marginOff{
+    margin: 0px;
+}
+
+.misContactos{
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    gap: 12%;
+}
+
+.contactoSect {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.iconosRedes{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    width: 16%;
+    justify-content: end;
+}
+
+.iconsThree{
+    width: 40px;
+    height: 40px;
+}
+
+.signUp {
+    width: 80%;
+    background-color:  hsl(217, 28%, 15%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 0% 5% 0%;
+    border-radius: 10px;
+    position: relative;
+    bottom: 150px;
+
+}
+
+.titleSign{
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+
+.textSign{
+    width: 70%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.inputCont{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputSignup {
+    width: 66%;
+    border-radius: 30px;
+}
+
+.inputOff{
+    color: red;
+}
+
+.inputOk{
+    color: green;
+}
+
+.btnFooter{
+    border: none;
+    border-radius: 30px;
+    padding: 18px 35px;
+    background-color: hsl(198, 60%, 50%);
+    color:  hsl(0, 0%, 100%);
+}
+
+
+
+@media screen and (max-width: 375px) {
+
+header {
+    width: 100%;
+    background-image: url(./assets/bg-curvy-mobile.svg);
+}
+
+/* HERO */
+.textosHero{
+    width: 80%;
+}
+
+#txtPrincipalHero {
+    font-size: 23px;
+}
+ 
+#txtSecundarioHero{
+    padding: 0% 0% 5% 0%;
+    width: 100%;
+}
+
+.imageHero{
+    width: 90%;
+}
+
+.contenedorHero {
+    padding-top: 10%;
+    width: 100%;
+}
+
+.txtPrincipalHero {
+    width: 100%;
+}
+
+/* MAIN */
+
+.productiveCont {
+    flex-direction: column;
+    margin-bottom: 25%;
+}
+
+.featureStyle{
+    width: 100%;
+}
+
+.sectionFeacture{
+    flex-direction: column;
+}
+
+.imgProductive{
+    width: 100%;
+}
+
+.txtProductiveCont{
+    width: 100%;
+}
+
+.titleProductive {
+    font-size: 16px;
+    text-align: center;
+}
+
+.testiCont{
+    height: 470px;
+    justify-content: center;
+    background-size: 30px;
+    background-position-x: 10px;
+    margin: 10% 0% 35% 0%;
+}
+
+.contenidoEdit{
+    flex-direction: column;
+    height: 450px;
+    gap: 6%;
+    align-items: center;
+}
+
+main{
+    padding: 5% 0% 50% 0%;
+}
+
+.testInd{
+    width: 88%;
+    padding: 6%;
+    height: 100%;
+}
+
+.titleSign{
+    font-size: 15px;
+}
+
+.textSign{
+    width: 80%;
+    margin-bottom: 3%;
+    font-size: 13px;
+}
+
+/* FOOTER */
+
+.textDataFooter {
+    flex-direction: column;
+}
+
+.footerContenedor {
+    width: 100%;
+}
+
+.inputCont {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.signUp{
+    width: 100%;
+    padding: 8% 0% 10% 0%;
+}
+
+.inputSignup{
+    width: 100%;
+    height: 40px;
+}
+
+.btnFooter {
+    padding: 16px 55px;
+}
+
+.locationSect{
+    width: 100%;
+}
+
+.misContactos {
+    width: 100%;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.menuFooter {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.iconosRedes{
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.textDataFooter {
+    gap: 30px;
+}
+
+}
